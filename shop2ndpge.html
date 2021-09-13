@@ -1,0 +1,222 @@
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    <!-- add jQuery library -->
+  <script src="https://www.w3schools.com/lib/w3.js"></script>  
+  <link rel="stylesheet" href="../HOC/css/shop.css">
+  <title>SHOP H.O.C</title>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600);
+/*previous next*/
+a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+  }
+  
+  a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  .previous {
+	background-color: #ee6969;
+	color: rgb(248, 245, 245);
+  }
+  
+  .next {
+	background-color: #ee6969;
+	color: white;
+  }
+body{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #b604044b;}
+  *{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+body{
+	background-size: 100%;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 45px;
+	font-size: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	border: 1px solid transparent;
+	padding: 10px 20px;
+	color: rgb(20, 20, 20); 
+	text-decoration: none;
+	transition: 0.6s ease;
+	margin-left: 5px;
+	border-radius: 20px;
+}
+
+ul li a:hover{
+	border-bottom: 4px solid #fff;	
+	border-top: 4px solid #fff;
+}
+
+ul li.active a{
+	background-color: #FC6C85;
+	color: rgb(12, 12, 12);
+}
+
+.logo img{
+	float: left;
+	width: 230px;
+	height: auto;
+	margin-top: 15px;
+}
+.title{
+	color: #2f261e;
+	font-family:cursive;
+	font-size: 18px;
+}
+		* {
+		   box-sizing: border-box;
+		}
+		.row {
+		  display: flex;
+		}
+		
+		.column {
+		  flex: 33.33%;
+		  padding: 5px;
+		}
+		.kuih {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			max-width: 300px;
+			margin: auto;
+			text-align: center;
+			font-family: arial;
+		  }
+		  .price {
+			color: rgb(54, 54, 54);
+			font-size: 22px;
+		  }
+		  .kuih button {
+			border: none;
+			outline: 0;
+			padding: 12px;
+			color: white;
+			background-color: #000;
+			text-align: center;
+			cursor: pointer;
+			width: 100%;
+			font-size: 18px;
+		  }
+		  .kuih button:hover {
+			opacity: 0.7;
+		  }	  
+          h2{
+font-family: cursive;
+font-size: 38px;}
+</style>
+</head>
+
+<body background="">
+<header>
+		<div class="main">
+			<div class="logo">
+				<img src="../HouseOfCookies/image/logocookiesnew.png">
+			</div>
+			<ul>
+				<li ><a href="index.html">Home</a></li>
+				<li class="active"><a href="shop.html">Shop</a></li>				
+				<li ><a href="about.html">About</a></li>
+				<li ><a href="contact.html">Contact</a></li>
+				<li><a href="login/index.html">Log In</a></li>
+
+			</ul>
+		</div>
+<div class="title">.
+   </div>
+  <br><br>
+  <br><br><br><br>
+    <center> <a href="../HouseOfCookies/shop.html" class="previous">&laquo; Previous</a>
+		<a href="#" class="next">Next &raquo;</a></center>
+        <br>
+    	<center><h1>Chinese New Year Treats</h1></center>
+	  <div class="row">
+    <div class="kuih">
+        <img src="../HouseOfCookies/image/kuih bulan.jpeg" alt="bulan" style="width:100%">
+        <h1>Moon Cake</h1>
+      <div class="price">
+			<s>RM23.80</s><div class="real" data-price="22.80">RM22.80</div>
+			<a href="../HouseOfCookies/login/index.html"> <p><button>Click to Order</button></p></a>
+		</div>
+</div>
+
+	  <div class="kuih">
+        <img src="../HouseOfCookies/image/assortedtarts.jpg" alt="assorted" style="width:100%">
+        <h1>Assorted Pineapple Tarts</h1>
+        <div class="price">
+			<s>RM23.80</s><div class="real" data-price="22.80">RM22.80</div>
+			<a href="../HouseOfCookies/login/index.html"> <p><button>Click to Order</button></p></a>
+	</div>
+	</div>
+
+	<div class="kuih">
+        <img src="../HouseOfCookies/image/goodluckcookiesmeman.jpg" alt="luck" style="width:100%">
+        <h1>Good Luck Cookies</h1>
+        <div class="price">
+			<s>RM23.80</s><div class="real" data-price="22.80">RM22.80</div>
+			<a href="../HouseOfCookies/login/index.html"> <p><button>Click to Order</button></p></a>
+	</div>
+	</div>
+
+	<div class="kuih">
+        <img src="../HouseOfCookies/image/goldeningot.jpg" alt="Golden" style="width:100%">
+        <h1>Golden Ingot Original Pineapple Tarts</h1>
+        <div class="price">
+			<s>RM23.80</s><div class="real" data-price="22.80">RM22.80</div>
+			<a href="../HouseOfCookies/login/index.html"> <p><button>Click to Order</button></p></a>
+	</div>
+	</div>
+	  </div>
+<br><br>
+    <center><h1>Christmas Cookies</h1></center>
+	<div class="row">
+	<div class="kuih">
+		<img src="../HouseOfCookies/image/Santas-Whiskers-Cookie.jpg" alt="santa" style="width:100%">
+        <h1>Santa’s Whiskers Cookies</h1>
+        <div class="price">
+			<s>RM28.00</s><div class="real" data-price="27.00">RM27.00</div>
+			<a href="../HouseOfCookies/login/index.html"> <p><button>Click to Order</button></p></a>
+	</div>
+	</div>
+	
+	<div class="kuih">
+		<img src="../HouseOfCookies/image/chocolate.jpg" alt="chocolate" style="width:100%">
+        <h1>Chocolate Truffles</h1>
+        <div class="price">
+			<s>RM27.00</s><div class="real" data-price="26.00">RM26.00</div>
+			<a href="../HouseOfCookies/login/index.html"> <p><button>Click to Order</button></p></a>
+	</div>
+	</div>
+	<div class="kuih">
+		<img src="../HouseOfCookies/image/christmas-cookie-sparkles1.jpg" alt="sparkles" style="width:100%">
+        <h1>Christmas Cookie Sparkles</h1>
+		<div class="price">
+			<s>RM26.00</s><div class="real" data-price="25.00">RM25.00</div>
+			<a href="../HouseOfCookies/login/index.html"> <p><button>Click to Order</button></p></a>
+	</div>
+	</div>
+	<div class="kuih">
+		<img src="../HouseOfCookies/image/neapolitan-cookies1.jpg" alt="aiskrim strawberry" style="width:100%">
+        <h1>Neapolitan Cookies</h1>
+        <div class="price">
+			<s>RM27.00</s><div class="real" data-price="26.00">RM26.00</div>
+			<a href="../HouseOfCookies/login/index.html"> <p><button>Click to Order</button></p></a>
+	</div>
+	</div>
+</div>
